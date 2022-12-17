@@ -1,0 +1,142 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("script hub", "Synapse")
+    -- MAIN
+    local Main = Window:NewTab("script hub")
+    local MainSection = Main:NewSection("Main")
+
+    MainSection:NewButton("sword", "gives you sword", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/Fv0Cd9pz'))()
+    end)
+
+    MainSection:NewButton("Explosive galaxy 7", "gives you a galaxy 7", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/861SQXj7'))()
+    end)
+
+MainSection:NewButton("nuke", "WTF BOOOM", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Plsstpppppp/OKm/main/README.md'))()
+    end)
+
+MainSection:NewButton("A-60", "summon A-60", function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/8fB9YUBG'))()
+end)
+
+MainSection:NewButton("rtx", "blows up your phone (trash phones it didn't blow up mine)", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/HAuQ74SY'))()
+    end)
+MainSection:NewButton("entity spawner", "icherrykrades entity spawner", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iCherryKardes/Doors-Hub/main/Mobile%20Hub"))()
+end)
+
+MainSection:NewButton("crucifix", "gives crucifix", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Johnny39871/assets/main/crucifixo'))()
+-- CRUCIFIX
+end)
+
+MainSection:NewButton("iforgot (READ DESCRIPTION)", "this was chrono hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/CometRestoration/main/Main.lua"))()
+end)
+MainSection:NewButton("list for the entity's credits to neon", "gives c7", function()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("script hub", "Synapse")
+    -- MAIN
+    local Main = Window:NewTab("script hub")
+    local MainSection = Main:NewSection("Main")
+end)
+
+
+MainSection:NewButton("troll", "summons troll", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/4PtX7dGp'))()
+    end)
+
+
+MainSection:NewButton("rush", "summons rush", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/nyTKfUd1'))()
+    end)
+
+MainSection:NewButton("ambush", "summons ambush", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/40Em1wPx'))()
+    end)
+
+MainSection:NewButton("keyboard", "keyboard op and useless at the same time", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
+MainSection:NewButton("become figure it for door 50", "become figure at door 50", function()
+workspace.CurrentCamera:Destroy()
+task.wait(.1)
+workspace.CurrentCamera.CameraType = Enum.CameraType.Attach
+workspace.CurrentCamera.CameraSubject = workspace.CurrentRooms["50"].FigureSetup.FigureRagdoll.Head.FakeHead
+game.Players.LocalPlayer.PlayerGui.MainUI.Enabled = false
+end)
+
+MainSection:NewButton("become seek for door 39", "become seek at door 39", function()
+workspace.CurrentCamera:Destroy()
+task.wait(.1)
+workspace.CurrentCamera.CameraType = Enum.CameraType.Attach
+workspace.CurrentCamera.CameraSubject = workspace.CurrentRooms["39"].SeekMoving.SeekRig.Head.Black
+game.Players.LocalPlayer.PlayerGui.MainUI.Enabled = false
+end)
+MainSection:NewButton("Darkrai doors script grinder", "epic grinder", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Darkrai-X/main/Games/Doors"))()
+end)
+
+MainSection:NewButton("become figure door 100", "become figure at dor 100", function()
+workspace.CurrentCamera:Destroy()
+task.wait(.1)
+workspace.CurrentCamera.CameraType = Enum.CameraType.Attach
+workspace.CurrentCamera.CameraSubject = workspace.CurrentRooms["100"].FigureSetup.FigureRagdoll.Head.FakeHead
+game.Players.LocalPlayer.PlayerGui.MainUI.Enabled = false
+end)
+
+MainSection:NewButton("doors chiba hub it's good", "it's good like the other ones it's my first time making a text like this", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KindIhave/ChibaHubcomeback/main/Chiba-Doors.txt"))()
+end)
+
+MainSection:NewButton("seek crucifix works like the original one", "idk if it works on seek", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RmdComunnityScriptsProvider/AngryHub/main/Seek%20Crucifix.lua"))()
+end)
+
+MainSection:NewButton("Minecraft room mod (made by penguinmaniack", "Minecraft", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/y2WmccLk"))()
+end)
+
+MainSection:NewButton("I forgot ", "Minecraft", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+MainSection:NewButton("op entity spawner use fluxus ", "Minecraft", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/uV8qFPjm"))(); 
+end)
+
+MainSection:NewButton("hardcore script ", "why did you try to check", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/MuhXd/DoorSuff/main/DoorsModes/HardMode(Multplayer%2CProtected).lua'))()
+end)
+
+MainSection:NewButton("thanksgiving ", "why did you try to check", function()
+loadstring(game:HttpGet("https://github.com/ZepsyyCodesLUA/Utilities/blob/main/Doors/Thanksgiving.lua?raw=true"))()
+end)
+
+MainSection:NewButton("SPONGUSS entity replicator ", "why did you try to check", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sponguss/Doors-Entity-Replicator/main/source.lua"))()
+end)
+
+MainSection:NewButton("skeleton chest execute in shop (read desc) ", "then you will see a door named E-001 open it.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/CometRestoration/main/Skeletonkey.lua"))()
+end)
+
+MainSection:NewButton("devil cricifix hub ", "why did you try to check", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/UWaXihy6"))()
+end)
+
+MainSection:NewButton("floor 2 for mobile ", "why did you try to check", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/iCherryKardes/Doors/main/Floor%202%20Mod"))()
+end)
+
+MainSection:NewButton("door 000000 devil cricifix but door (READ DESC) ", "same as skeleton chest but devil version", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/CometRestoration/main/CursedRoom.lua"))()
+end)
+
+MainSection:NewButton("A-60", "Beta", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/SNNPjAyq"))()  
+end)

